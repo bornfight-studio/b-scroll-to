@@ -47,7 +47,7 @@ new ScrollTo();
 
 ```JS
 new ScrollTo({
-    ease: 'expo.ease-out'
+    ease: 'expo.ease-out',
     duration: 5
 });
 ```
