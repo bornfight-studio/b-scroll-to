@@ -2,71 +2,62 @@
 <img width="84px" src="https://www.bornfight.com/wp-content/themes/bf/static/ui/BF-sign-dark.svg?" title="Bornfight" alt="Bornfight">
 </a>
 
-# b-lib-boilerplate [[all b- libs](https://github.com/bornfight/b-lib-archive/)]
-> Bornfight frontend project based on gulp, es6 and scss
+# b-scroll-to [[all b- libs](https://github.com/bornfight/b-lib-archive/)]
+> Bornfight frontend micro lib for smooth scrolling
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/bornfight/b-creative?style=flat-square)
-![GitHub package.json dynamic](https://img.shields.io/github/package-json/keywords/bornfight/b-creative?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/bornfight/b-creative?style=flat-square)
-![GitHub](https://img.shields.io/github/license/bornfight/b-creative?style=flat-square)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/bornfight/b-scroll-to?style=flat-square)
+![GitHub package.json dynamic](https://img.shields.io/github/package-json/keywords/bornfight/b-scroll-to?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/bornfight/b-scroll-to?style=flat-square)
+![GitHub](https://img.shields.io/github/license/bornfight/b-scroll-to?style=flat-square)
 
-##### ⚠ IMPORTANT NOTICE - module not yet published on npm ⚠
-Change:
-- package.json > "name": "c-lib-boilerplate"
-- package.json > "description": "...."
-- package.json > "main": "src/js/LibName.js"
-- LibName.js > replace with your lib name in places where it is used
-- add keywords to package.json
 
 ## 📦 Getting Started
 
-- install `b-lib` trough __npm__ or pull ti from git
+Dependency: `gsap`
+
+- install `b-scroll-to` trough __npm__ or pull ti from git
 
 ```
-npm i @bornfight/b-lib
+npm i @bornfight/b-scroll-to
 ```
 
-- include b-lib to your __JS__ and __SCSS__ after running __npm install__
+- include b-scroll-to to your __JS__ after running __npm install__
 
 ## 🔨️ Usage 
 ###### JS
 ``` JS
-import LibName from "@bornfight/b-lib";
-```
+import ScrollTo from "@bornfight/b-scroll-to";
 
-###### SCSS
-``` SCSS
-@import "~b-lib/src/scss/b-lib.scss";
+new ScrollTo();
 ```
 
 ##### HTML markup
 
 ```HTML
-<p class="b-lib-class">
-    Lib Element
-</p>
+<a href="" data-scroll-to="#target" data-offset="100">
+    Scroll to target
+</a>
 ```
 
 ##### Basic usage tips
-- element needs to have ...
-- ...
-
-##### Advanced usage
-- ...
+- `data-scroll-to` can be id or class of target element
+- `data-offset` is type number with value in pixels
      
 ## 💎 Customization
+
+```JS
+new ScrollTo({
+    ease: 'expo.ease-out'
+    duration: 5
+});
+```
 
 ## ✅ Properties
 
 Option | Type | Default | Example | Description
 ------ | ---- | ------- | ------- | -----------
-parentClass | string | element parent | 'js-parent' | Element will be wrapped and moved to that parent and not to initial parent element 
-
-## 🚀 Useful to know
-
-1. ...
-2. ...
-3. ...
+ease | string | "power3.ease-in-out" | "expo.ease-out" | Scroll ease can be modified (gsap eases) 
+duration | number | 1 | 10 | Duration of the scroll in seconds 
    
 ### 📦 Contribute
 

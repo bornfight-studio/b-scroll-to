@@ -21,7 +21,7 @@ const paths = {
         dest: "dist/",
     },
     scripts: {
-        main: "src/js/LibName.js",
+        main: "src/js/ScrollTo.js",
         src: "src/js/**/*.js",
         dest: "dist/",
     },
