@@ -1,6 +1,6 @@
 {
   "name": "@bornfight/b-scroll-to",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bornfight frontend micro lib for smooth scrolling",
   "author": "Bornfight FE team",
   "email": "frontend@bornfight.com",

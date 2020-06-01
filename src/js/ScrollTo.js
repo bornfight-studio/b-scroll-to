@@ -1,12 +1,12 @@
 /**
- * b-scroll-to v 1.0.0
+ * b-scroll-to v 1.0.1
  * Author: Bornfight
  * Repo: https://github.com/bornfight/b-scroll-to
  *
  * Year: 2020
  */
 
-import gsap from "../../node_modules/gsap/index.js";
+import gsap from "gsap";
 
 export default class ScrollTo {
     constructor(options) {
