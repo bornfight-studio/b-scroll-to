@@ -1,5 +1,5 @@
 /**
- * b-scroll-to v 1.0.1
+ * b-scroll-to v 1.0.2
  * Author: Bornfight
  * Repo: https://github.com/bornfight/b-scroll-to
  *
@@ -11,7 +11,7 @@ import gsap from "gsap";
 export default class ScrollTo {
     constructor(options) {
         const _defaults = {
-            ease: "power3.ease-in-out",
+            ease: "power3.inOut",
             duration: 1
         };
 

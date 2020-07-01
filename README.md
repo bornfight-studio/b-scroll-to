@@ -47,7 +47,7 @@ new ScrollTo();
 
 ```JS
 new ScrollTo({
-    ease: 'expo.ease-out',
+    ease: 'expo.out',
     duration: 5
 });
 ```
@@ -56,7 +56,7 @@ new ScrollTo({
 
 Option | Type | Default | Example | Description
 ------ | ---- | ------- | ------- | -----------
-ease | string | "power3.ease-in-out" | "expo.ease-out" | Scroll ease can be modified (gsap eases) 
+ease | string | "power3.inOut" | "expo.out" | Scroll ease can be modified (gsap eases) 
 duration | number | 1 | 10 | Duration of the scroll in seconds 
    
 ### 📦 Contribute
