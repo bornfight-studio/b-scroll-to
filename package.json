@@ -1,9 +1,13 @@
 {
   "name": "@bornfight/b-scroll-to",
-  "version": "1.0.2",
-  "description": "Bornfight frontend micro lib for smooth scrolling",
-  "author": "Bornfight FE team",
-  "email": "frontend@bornfight.com",
+  "version": "1.0.3",
+  "description": "Bornfight Studio frontend micro lib for smooth scrolling",
+  "author": {
+    "name": "BORNFIGHT STUDIO®",
+    "email": "hello@bornfight.studio",
+    "url": "https://www.bornfight.studio"
+  },
+  "email": "hello@bornfight.studio",
   "private": false,
   "main": "src/js/ScrollTo.js",
   "license": "MIT",
@@ -25,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bornfight/b-scroll-to/"
+    "url": "https://github.com/bornfight-studio/b-scroll-to/"
   },
   "browserslist": [
     "> 0.5%",

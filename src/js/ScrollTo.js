@@ -1,7 +1,7 @@
 /**
- * b-scroll-to v 1.0.2
- * Author: Bornfight
- * Repo: https://github.com/bornfight/b-scroll-to
+ * b-scroll-to v 1.0.3
+ * Author: Bornfight Studio
+ * Repo: https://github.com/bornfight-studio/b-scroll-to
  *
  * Year: 2020
  */
